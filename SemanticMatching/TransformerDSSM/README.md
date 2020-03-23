@@ -226,5 +226,5 @@ TransformerDSSM模型的表示层特征向量提取通过调用文件中的函�
 
 
 
-如果你对该模型感兴趣，可去[github地址]()给个star
+如果你对该模型感兴趣，可去[github地址](https://github.com/Vincent131499/MeteorMan-NLP-Lab/tree/master/SemanticMatching/TransformerDSSM)给个star
 
