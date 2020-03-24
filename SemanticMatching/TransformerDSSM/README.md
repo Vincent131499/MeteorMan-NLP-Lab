@@ -219,10 +219,13 @@ TransformerDSSM模型的表示层特征向量提取通过调用文件中的函�
 
 # 4.已训练模型库
 
-本模块提供一种已经过训练的模型，新的问答对数据或者问题对数据可在这个预训练模型的基础上进行训练，能够达到较好效果。（将下面的模型model-Sim下载后移动到TransformerDSSM/ModelMemory目录下,然后运行debug.py即可）
+本模块提供一种已经过训练的模型，新的问答对数据或者问题对数据可在这个预训练模型的基础上进行训练，能够达到较好效果。
 
-下载链接：https://pan.baidu.com/s/1WYCHhDaHFHIg0wZDYH-YrA 
-提取码：b8w2 
+预训练模型下载链接：https://pan.baidu.com/s/1WYCHhDaHFHIg0wZDYH-YrA 提取码：b8w2 
+
+字符词向量下载链接：链接：https://pan.baidu.com/s/1_kbMxs7VdDV8M0QbHTxCmw 提取码：pkhq 
+
+将下载的预训练模型model-Sim移动到TransformerDSSM/ModelMemory目录下,然后将词向量文件移动到TransformerDSSM/WordEmbedding目录下，然后运行debug.py即可）
 
 
 
