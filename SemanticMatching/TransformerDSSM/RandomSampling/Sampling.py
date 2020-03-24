@@ -1,7 +1,7 @@
 # coding=utf-8
 
 """
-author: 王黎成
+author: MeteorMan
 function: 采样函数库
 """
 
