@@ -199,7 +199,7 @@ TransformerDSSM模型的推理通过调用文件中的函数`dssm_model_infer`�
 
 **answer_embedding**，该参数是由一系列待匹配的答案经过表示层所提取的特征向量组成的列表，列表中的每一个元素是一个答案对应的特征向量，之所以用特征向量直接作为待匹配答案的输入，是为了减少数据经过表示层的计算时间，提高匹配效率；
 
-**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
+**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/WordEmbedding/CharactersEmbedding.json`
 
 **top_k**，该参数表示当输入一个问题时，需要从待匹配的答案中返回top_k个候选答案，默认时，该参数的值为1；
 
@@ -211,7 +211,7 @@ TransformerDSSM模型的表示层特征向量提取通过调用文件中的函�
 
 **faq_dict**，该参数是一个问答对组成的列表，列表中的每一个元素均为一个问答对字典；
 
-**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
+**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`WordEmbedding/CharactersEmbedding.json`
 
 # 3.模型训练数据
 
